@@ -5,13 +5,9 @@
 
 int main () {
 
-    int MyAge; 
-    int MyMomAge; 
-    int MyDadAge;
-
-    MyAge = 17; 
-    MyMomAge = 49; 
-    MyDadAge = 49;
+    int MyAge = 17; 
+    int MyMomAge = 49; 
+    int MyDadAge = 49;
 
     printf("My age is = %i\nMy Dad age is = %i\nMy Mom age is = %i", MyAge, MyDadAge, MyMomAge);
     return 0;
