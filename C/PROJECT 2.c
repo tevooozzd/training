@@ -30,20 +30,20 @@ int show_menu() {
 
 
 void Celcius(){
-    float temperature;
+    int temperature;
     printf("Enter the temperature in celcius: ");
-    scanf("%f", &temperature);
+    scanf("%d", &temperature);
     show_temperature(temperature);
 }
 
 
 
 void Fahrenheit(){
-    float temperature;
+    int temperature;
     printf("Enter the temperature in Fahrenheit: ");
-    scanf("%f", &temperature);
+    scanf("%d", &temperature);
 
-    temperature = ((temperature - 32) * 5) / 9;
+    temperature = ((temperature - 32) * 9) / 5;
     show_temperature(temperature);
 }
 
@@ -61,32 +61,32 @@ void Kelvin(){
 
 
 void show_temperature(int x){
-    float temperature = x;
+    int temperature = x;
 
     if(temperature < 0){
         printf("Cold as hell\n");
-        printf("Temperature in Celcius: %.2f\n", temperature);
-        printf("Temperature in Fahrenheit: %.2f\n", ((temperature * 9) / 5) + 32); 
-        printf("Temperature in Kelvin: %.2f\n", (temperature + 273.15));
+        printf("Temperature in Celcius: %.2d\n", temperature);
+        printf("Temperature in Fahrenheit: %.2d\n", ((temperature * 9) / 5) + 32); 
+        printf("Temperature in Kelvin: %.2d\n", (temperature + 273));
 
     } else if (temperature > 0 && temperature < 15){
         printf("Cold");
-        printf("Temperature in Celcius: %.2f\n", temperature);
-        printf("Temperature in Fahrenheit: %.2f\n", ((temperature * 9) / 5) + 32); 
-        printf("Temperature in Kelvin: %.2f\n", (temperature + 273.15));
+        printf("Temperature in Celcius: %.2d\n", temperature);
+        printf("Temperature in Fahrenheit: %.2d\n", ((temperature * 9) / 5) + 32); 
+        printf("Temperature in Kelvin: %.2d\n", (temperature + 273));
 
     } else if (temperature > 15 && temperature < 30)
     {
         printf("Normal temperature\n");
-        printf("Temperature in Celcius: %.2f\n", temperature);
-        printf("Temperature in Fahrenheit: %.2f\n", ((temperature * 9) / 5) + 32); 
-        printf("Temperature in Kelvin: %.2f\n", (temperature + 273.15));
+        printf("Temperature in Celcius: %.2d\n", temperature);
+        printf("Temperature in Fahrenheit: %.2d\n", ((temperature * 9) / 5) + 32); 
+        printf("Temperature in Kelvin: %.2d\n", (temperature + 273));
 
     } else{
         printf("Hot\n");
-        printf("Temperature in Celcius: %.2f\n", temperature);
-        printf("Temperature in Fahrenheit: %.2f\n", ((temperature * 9) / 5) + 32); 
-        printf("Temperature in Kelvin: %.2f\n", (temperature + 273.15));
+        printf("Temperature in Celcius: %.2d\n", temperature);
+        printf("Temperature in Fahrenheit: %.2d\n", ((temperature * 9) / 5) + 32); 
+        printf("Temperature in Kelvin: %.2d\n", (temperature + 273));
     }
     
 }
