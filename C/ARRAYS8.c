@@ -6,7 +6,7 @@ int main(){
     int arr[10];
     int arr2[10];;
 
-    printf("Insira os valores do array a seguir\n");
+    printf("Insira os valores do array:\n");
     for (int i = 0; i < 10; i++)
     {
         printf("Numero %d, vai possuir o valor de = ", i + 1);
