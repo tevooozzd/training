@@ -7,7 +7,7 @@ int main(){
     int arrt[3][3];
 
 
-    printf("Insira os valores do array\n");
+    printf("Insira os valores do array antes da transposição\n");
     for (int i = 0; i < tamanho; i++)
     {
         for (int j = 0; j < tamanho; j++)
