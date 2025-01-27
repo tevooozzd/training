@@ -5,7 +5,7 @@ int main(){
     int linhas[4];
     int arrbi[4][4];
 
-    printf("Enter some values to put in the array bidimensional: \n");
+    printf("Enter some values to put in the array: \n");
 
     for (int i = 0; i < 4; i++)
     {
