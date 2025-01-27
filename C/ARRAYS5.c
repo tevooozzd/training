@@ -4,7 +4,7 @@ int main(){
     int arr[5];
     int arri[5];
 
-    printf("Digite os números para serem armazenados no array e depois invertido a seguir\n");
+    printf("Digite os números para serem armazenados no array e depois invertido\n");
     
     for (int i = 0; i < 5; i++)
     {
