@@ -12,7 +12,7 @@ int main(){
     {
         for (int j = 0; j < tamanho; j++)
         {
-            printf("Array %d %d receberá o valor: ", i, j);
+            printf("Array [%d] [%d] receberá o valor: ", i, j);
             scanf("%d", &arr[i][j]);
         }
         
@@ -35,18 +35,18 @@ int main(){
         {
             printf("%d", arr[i][j]);
         }
-        printf("\n\n");
+        printf("\n");
     }
     
-    
-    printf("Depois da traspota\n\n");
+
+    printf("\nDepois da trasposta: \n\n");
     for (int i = 0; i < tamanho; i++)
     {
         for (int j = 0; j < tamanho; j++)
         {
             printf("%d", arrt[i][j]);
         }
-        printf("\n\n");
+        printf("\n");
     }
 
 
