@@ -3,7 +3,7 @@
 int main(){
     int arrbi[3][3];
 
-    printf("Enter some values to put in the array bidimensional: \n");
+    printf("Enter some values to put in the array: \n");
 
     for (int i = 0; i < 3; i++)
     {
