@@ -7,7 +7,7 @@ int main(){
     int x = 0;
     int input;
 
-    printf("Digite um número e vamos verificar se ele está no array\n");
+    printf("Digite um número e vamos verificar se ele está no array:\n");
     scanf("%d", &input);
 
 
