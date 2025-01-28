@@ -6,7 +6,7 @@ int FuncaoVariadica(int quant, ...);
 int main(){
 
     printf("Soma dos números foi de %d\n", FuncaoVariadica(3,5,10,5));
-    printf("Soma dos números na 2 chamada foi de %d", FuncaoVariadica(4, 2, 4, 6, 8));
+    printf("Soma dos números foi de %d", FuncaoVariadica(4, 2, 4, 6, 8));
 
     return 0;
 }
