@@ -14,7 +14,7 @@ int main(){
     
     for (int i= 0 ; i < 5; i++)
     {
-        printf("O valor de ptr[%d] é de %.2f\n", i , ptr[i]);
+        printf("O valor de ptr[%d] é de: %.2f\n", i , ptr[i]);
     }
     
     free(ptr);
